@@ -115,26 +115,28 @@
                </div>
                <div class="col-md-7" data-aos="fade-left" data-aos-duration="2000">
                   <div class="contact-form-wrap">
-                     <div class="row">
-                        <div class="col-md-6">
-                           <input type="text" placeholder="Your Name">
-                        </div>
-                        <div class="col-md-6">
-                           <input type="email" placeholder="Email Address">
-                        </div>
-                        <div class="col-md-6">
-                           <input type="tel" placeholder="Phone Number">
-                        </div>
-                        <div class="col-md-6">
-                           <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="col-md-12">
-                           <textarea placeholder="Write Message"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <input type="submit" value="submit">
-                        </div>
-                     </div>
+                      <form  name="contact" method="POST" data-netlify="true">
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <input type="text" placeholder="Your Name" name="name">
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="email" placeholder="Email Address" name="email">
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="tel" placeholder="Phone Number" name="phone">
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="text" placeholder="Subject" name="subject">
+                              </div>
+                              <div class="col-md-12">
+                                  <textarea placeholder="Write Message" name="message"></textarea>
+                              </div>
+                              <div class="col-md-12">
+                                  <input type="submit" value="submit">
+                              </div>
+                          </div>
+                      </form>
                   </div>
                </div>
             </div>
